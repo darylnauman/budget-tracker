@@ -82,19 +82,3 @@ const saveRecord = (record) => {
 
 // Listen for app coming back online
 window.addEventListener('online', checkDatabase);
-
-// Related to version control - needed? 
-// request.onupgradeneeded = function (e) {
-//   console.log('Upgrade needed in IndexDB');
-
-//   const { oldVersion } = e;
-//   const newVersion = e.newVersion || db.version;
-
-//   console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
-
-//   db = e.target.result;
-
-//   if (db.objectStoreNames.length === 0) {
-//     db.createObjectStore('BudgetStore', { autoIncrement: true });
-//   }
-// };
