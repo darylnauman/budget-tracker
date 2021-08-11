@@ -1,18 +1,13 @@
-# Homework Assignment - 19 PWA Homework: Online/Offline Budget Tracker
+# Online/Offline Budget Tracker (Progressive Web Application)
 ![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Table of Contents
-[Description](#description)
-
-[Key Features](#key-features)
-
-[Technology Used](#technology-used)
-
-[License](#license)
-
-[Links](#links)
-
-[Screenshots](#screenshots)
+[Description](#description) <br/>
+[Key Features](#key-features) <br/>
+[Technology Used](#technology-used) <br/>
+[Links](#links) <br/>
+[Screenshots](#screenshots) <br/>
+[License](#license) <br/>
 
 ## Description
 This homework assignment for the University of Toronto SCS Coding Boot Camp was to build a budget tracker with online and offline functionality. Starter code was provided excluding the offline functionality. The focus of this assignment was to create a web manifest and service worker script so that the user can be offline and still use the application with offline transactions being sent to the Mongo database once back online. In addition, the application is deployed on Heroku using MongoDB Atlas and can be downloaded as a Progressive Web Application (PWA).
@@ -29,9 +24,6 @@ This homework assignment for the University of Toronto SCS Coding Boot Camp was 
 - Robo 3T
 - Progressive web application (i.e., manifest, service worker, Indexed Database API)
 - NPM packages: express, mongoose, morgan, compression
-
-## License
-This product is under the MIT License.
 
 ## Links
 - [GitHub repository](https://github.com/darylnauman/budget-tracker)
@@ -53,3 +45,6 @@ This product is under the MIT License.
 
 ### Main page with display of the data cache (seen in development tools).
 ![Screenshot of budget tracker with display of data cache.](./readme-images/budget-tracker-screenshot-04.png)
+
+## License
+This product is under the MIT License.
